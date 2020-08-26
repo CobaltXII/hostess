@@ -35,7 +35,7 @@ function help() {
 	console.log('hostess - hosts file manipulation tool');
 	console.log('');
 	console.log('usage:');
-	console.log('\thostess -a <ip> <alias> [<comment>]');
+	console.log('\thostess -a <alias> <ip> [<comment>]');
 	console.log('\t\tAppend entry.');
 	console.log('\thostess -ri <ip>');
 	console.log('\t\tRemove all entries with the specified ip.');
@@ -104,8 +104,8 @@ try {
 		if (argv.length != 2 && argv.length != 3) {
 			help();
 		}
-		var ip = argv.shift();
 		var alias = argv.shift();
+		var ip = argv.shift();
 		var comment = argv.shift();
 
 		// Search for an existing identical entry.
