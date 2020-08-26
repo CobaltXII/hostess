@@ -16,7 +16,7 @@ hosts file manipulation tool
 hostess - hosts file manipulation tool
 
 usage:
-	hostess -a <ip> <alias> [<comment>]
+	hostess -a <alias> <ip> [<comment>]
 		Append entry.
 	hostess -ri <ip>
 		Remove all entries with the specified ip.
