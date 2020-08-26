@@ -1,0 +1,22 @@
+{
+  "name": "hostess",
+  "version": "1.0.0",
+  "description": "hosts file manipulation tool",
+  "main": "hostess.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CobaltXII/hostess.git"
+  },
+  "author": "CobaltXII (http://cxii.org/)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/CobaltXII/hostess/issues"
+  },
+  "homepage": "https://github.com/CobaltXII/hostess#readme",
+  "bin": {
+    "hostess": "./hostess.js"
+  }
+}
